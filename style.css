@@ -6,24 +6,31 @@
 }
 body{
     background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+    
 }
 
 header{
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    justify-content: space-around;
     padding-top: 20px;
     margin-top: 20px;
     font-size: 20px;
     margin-bottom: 60px;
+   justify-content: space-around;
     }
     
     
     .home{
         list-style-type: none;
         display: flex;
-        gap: 50px;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 
 
@@ -96,5 +103,4 @@ button:hover{
 }
 li:hover{
     text-decoration: underline;
-    
-}
+    }
